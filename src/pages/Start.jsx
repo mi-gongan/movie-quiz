@@ -77,6 +77,7 @@ const Login=styled.div`
 
 export default function Start(props) {
    const user=props.user;
+   const cookies=props.cookies;
    const googleLogin=props.googleLogin
    const navigate=useNavigate();
    //애니메이션을 위한 state
@@ -93,7 +94,7 @@ export default function Start(props) {
          navigate("/Home") 
          },2000)
       }
-   },[user,navigate])
+   },[user,navigate,cookies])
 
    return (
       <Wrab>

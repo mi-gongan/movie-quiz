@@ -57,7 +57,7 @@ function App() {
       <Screen>
         <Router basename={process.env.PUBLIC_URL}>
           <Routes>
-            <Route path="" element={<Start user={user} googleLogin={googleLogin}/>}/>
+            <Route path="" element={<Start user={user} googleLogin={googleLogin} cookies={cookies}/>}/>
             <Route path="/home" element={<Home/>}/>
             <Route path="/quiz" element={<Quiz/>}/>
             <Route path="/result" element={<Result user={user} user_id={cookies.user_id}/>}/>
