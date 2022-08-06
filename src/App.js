@@ -43,7 +43,6 @@ function App() {
         addUser(data.user.uid,data.user.email)
         setCookie("user_id",data.user.uid);
       }).catch(error => console.log(error))
-    window.location.reload() 
   };
 
   //로그아웃
