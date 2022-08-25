@@ -2,7 +2,7 @@ Movie-quiz
 ============================================
 
 ### Play url
-https://mi-gongan.github.io/movie_quiz/Home
+https://movie-quiz-eight.vercel.app/
 
 
 ## Intro
